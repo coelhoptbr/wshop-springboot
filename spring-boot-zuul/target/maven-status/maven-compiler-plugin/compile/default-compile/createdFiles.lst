@@ -1,0 +1,7 @@
+br/com/southsystem/workshop/zuul/config/SwaggerResourceConfig.class
+br/com/southsystem/workshop/zuul/config/SwaggerConfig.class
+br/com/southsystem/workshop/zuul/App.class
+br/com/southsystem/workshop/zuul/config/RibbonConfig.class
+br/com/southsystem/workshop/zuul/helper/Constants.class
+br/com/southsystem/workshop/zuul/config/RestTemplateConfig.class
+br/com/southsystem/workshop/zuul/helper/DefaultProfileHelper.class

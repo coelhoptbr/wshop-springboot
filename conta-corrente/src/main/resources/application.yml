@@ -1,0 +1,47 @@
+server:
+  port: 3535
+   
+spring:
+  application:
+    name: conta-corrente
+  data:
+   mongodb:
+     uri: ${strConexaoMongo:mongodb://localhost:28018/workshopss}
+  cloud:
+   consul:
+     host: localhost
+     port: 8500
+     config:
+       enabled: true
+       defaultContext: apps
+       profileSeparator: '::'
+   stream:
+     bindings:
+       contaCorrenteCriada:
+         destination: conta-corrente-criada
+         group: conta-corrente-criada-group
+     binders:
+       rabbitMQ:
+         type: rabbit
+         environment:
+           spring:
+             rabbitmq:
+               addresses: ${rabbit.addresses:localhost:5672}
+               username: ${rabbit.username:guest}
+               password: ${rabbit.password:guest}
+               virtual-host: ${rabbit.virtualhost:/}
+     
+security:
+  basic:
+    enabled: ${flghabilseg:false}
+  user:
+    name: rodrigo
+    password: rod
+
+logging:
+  level:
+    root: ${nivelLog:INFO}
+
+service:
+  spring-boot-demo:
+    url: http://localhost:9090/api/spring-boot-demo/cpf/{cpf}

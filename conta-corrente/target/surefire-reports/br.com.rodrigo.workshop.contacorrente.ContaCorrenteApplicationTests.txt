@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.rodrigo.workshop.contacorrente.ContaCorrenteApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.318 sec - in br.com.rodrigo.workshop.contacorrente.ContaCorrenteApplicationTests

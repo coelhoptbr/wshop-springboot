@@ -1,0 +1,5 @@
+br/com/rodrigo/workshop/limite/service/LimiteService.class
+br/com/rodrigo/workshop/limite/resource/LimiteResource.class
+br/com/rodrigo/workshop/limite/model/Limite.class
+br/com/rodrigo/workshop/limite/repo/LimiteRepo.class
+br/com/rodrigo/workshop/limite/LimiteApplication.class

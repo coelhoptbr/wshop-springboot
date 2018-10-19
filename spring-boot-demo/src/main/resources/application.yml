@@ -1,0 +1,19 @@
+server:
+  port: 7070
+
+spring:
+  application:
+    name: spring-boot-demo
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      config:
+        enabled: true
+        prefix: config
+        defaultContext: apps
+        profileSeparator: '::'
+
+logging:
+  level:
+    root: ${logging-level:INFO}

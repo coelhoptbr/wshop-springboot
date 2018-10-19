@@ -1,0 +1,12 @@
+/home/rodrigo/Desktop/dev/projetos/javaecl/conta-corrente/src/main/java/br/com/rodrigo/workshop/contacorrente/service/CpfRemoteService.java
+/home/rodrigo/Desktop/dev/projetos/javaecl/conta-corrente/src/main/java/br/com/rodrigo/workshop/contacorrente/ContaCorrenteApplication.java
+/home/rodrigo/Desktop/dev/projetos/javaecl/conta-corrente/src/main/java/br/com/rodrigo/workshop/contacorrente/broker/BrokerOutput.java
+/home/rodrigo/Desktop/dev/projetos/javaecl/conta-corrente/src/main/java/br/com/rodrigo/workshop/contacorrente/service/ContaService.java
+/home/rodrigo/Desktop/dev/projetos/javaecl/conta-corrente/src/main/java/br/com/rodrigo/workshop/contacorrente/config/SwaggerConfig.java
+/home/rodrigo/Desktop/dev/projetos/javaecl/conta-corrente/src/main/java/br/com/rodrigo/workshop/contacorrente/resource/OlaMundoResource.java
+/home/rodrigo/Desktop/dev/projetos/javaecl/conta-corrente/src/main/java/br/com/rodrigo/workshop/contacorrente/config/RestTemplateConfig.java
+/home/rodrigo/Desktop/dev/projetos/javaecl/conta-corrente/src/main/java/br/com/rodrigo/workshop/contacorrente/resource/ContaResource.java
+/home/rodrigo/Desktop/dev/projetos/javaecl/conta-corrente/src/main/java/br/com/rodrigo/workshop/contacorrente/repo/ContaRepo.java
+/home/rodrigo/Desktop/dev/projetos/javaecl/conta-corrente/src/main/java/br/com/rodrigo/workshop/contacorrente/model/Conta.java
+/home/rodrigo/Desktop/dev/projetos/javaecl/conta-corrente/src/main/java/br/com/rodrigo/workshop/contacorrente/enums/TipoContaEnum.java
+/home/rodrigo/Desktop/dev/projetos/javaecl/conta-corrente/src/main/java/br/com/rodrigo/workshop/contacorrente/broker/BrokerBinder.java
